@@ -1,0 +1,74 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+header{
+background-image:url('contactbg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+background-repeat: repeat-y;
+}
+
+.clearfix:after{
+content:".";
+visibility: hidden;
+display: block;
+height:0px;
+clear:both;
+}
+
+
+.row{
+max-width: 1908px;
+margin: 0 auto;
+margin-left: -1px
+}
+
+.logo{
+height: 120px;
+width: auto;
+float:left;
+margin-top: 20px;
+}
+
+.main-content{
+width:1908px;
+position:absolute ;
+top:40%;
+left:50%
+tranform: translate(-50%,-50%);
+}
+
+.main-content li{
+display:inline-block;
+list-style:none;
+margin-left:100px;
+font-family: 'Piazzolla', serif;
+}
+
+.main-content li a:hover{
+  background-image: linear-gradient(to right, rgba(150,200,255,0), rgba(150,200,255,1));
+}
+
+.main-content a{
+padding:5px 0px;
+color: black;
+text-decoration: none;
+font-size:450%;
+font-weight:100;
+font-weight:heavier;
+}
+
+h1{
+font-family: "Comic Sans MS", cursive;
+font-weight:lighter;
+padding-top:2%;
+padding-left: 15%;
+font-size:500%;
+}
+
+h5{
+margin: 750px 30px;
+}

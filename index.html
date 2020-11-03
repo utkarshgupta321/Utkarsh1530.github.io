@@ -1,0 +1,49 @@
+
+<html>
+
+<head>
+<title>SWASTHAYA</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<header>
+<nav>
+<div class="row" clearfix>
+<img src="logo.jpg" class="logo">
+
+<ul class="main-nav animate__animated animate__backInDown"  id="check-class">
+<li><a href="index.html"><b>Home</b></a></li>
+<li><a href="login.html"><b>Login/Register</b></a></li>
+<li><a href="#"><b>About us</b></a></li>
+<li><a href="Contact.html"><b>Contact us</b></a></li></ul>
+<a href="#" class="icon" onclick="slideshow()"> <i class="fa fa-align-justify"></i></a>
+</div>
+</nav>
+
+<div class="main-content-header animate__animated animate__backInDown">
+<h1><span class="colorchange">Swasthaya</span> welcomes you !</h1>
+<a href="#" class="btn btn-full"><b>Predict Disease</b></a>
+</div>
+
+
+</header>
+
+<script type="text/javascript">
+function slideshow(){
+var x= document.getElementById('check-class');
+if(x.style.display==="block"){
+x.style.display="none";
+}
+
+else{
+x.style.display="block";
+}
+}
+</script>
+
+</body>
+</html>

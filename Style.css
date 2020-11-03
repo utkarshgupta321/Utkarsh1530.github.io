@@ -1,0 +1,162 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+
+body{
+font-size:20px;
+font-family: "Baskerville Old Face", cursive;
+overflow:hidden;
+color:#fff
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) ,url('homebg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.clearfix:after{
+content:".";
+visibility: hidden;
+display: block;
+height:0px;
+clear:both;
+}
+
+.row{
+max-width: 1908px;
+margin: 0 auto;
+margin-left: -1px
+}
+
+.logo{
+height: 70px;
+width: 140px;
+float:left;
+margin-top: 20px;
+}
+
+.main-nav{
+margin-top: 3%;
+padding-left: 55%
+}
+
+.main-nav li{
+display:inline-block;
+list-style:none;
+margin-left:50px;
+font-family: "Bradley Hand ITC", cursive;
+}
+
+.main-nav li a{
+padding:5px 0px;
+color: #fff;
+text-decoration: none;
+font-size:120%;
+font-weight:100;
+font-weight:heavier;
+}
+
+.main-nav li a:hover{
+border-bottom:2px solid #fff;
+}
+
+.main-content-header{
+width:1908px;
+position:absolute ;
+top:50%;
+left:50%
+tranform: translate(-70%,-70%);
+padding-left:45%;
+margin-top:-3%
+}
+
+.main-content-header a{
+margin-left:30%;
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4))
+
+}
+
+h1{
+color:#fff;
+font-size:340%;
+word-spacing:5px;
+letter-spacing:3px;
+margin-bottom:80px;
+}
+
+.btn{
+margin-left:100px;
+padding: 10px 10px;
+font-weight:lighter;
+text-decoration:none;
+border-radius:100px;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full{
+background-color: transparent;
+color:#fff;
+border: 3px solid white;
+}
+
+.btn-full:hover{
+background-color: black;
+border:2px solid black;
+
+}
+
+.colorchange{
+animation: colorchangeswasthaya 5s infinite;
+}
+
+@keyframes colorchangeswasthaya{
+10%{color:pink;}
+30%{color:yellow;}
+50%{color:cyan;}
+100%{color:orange;}
+}
+
+.icon{display:none;}
+
+/*///////Resposive///////*/
+
+@media only screen and (max-width:1180px){
+.main-content-header{
+width:100%;
+padding-left:0  2%;
+}
+}
+
+@media only screen and (max-width: 998px){
+h1{
+font-size:200%;
+}
+}
+
+@media only screen and (max-width: 874px){
+h1{
+font-size:180%;
+}
+.main-nav{display:none;}
+
+.icon{display:inline-block;
+color:#fff;
+float: right;
+margin-top:60px;
+margin-right:40px;
+}
+
+.main-nav li{
+display:block;
+margin-top:15px;
+}
+}
+
+.main-nav{
+float:left;
+}
+}

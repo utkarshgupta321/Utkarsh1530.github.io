@@ -1,0 +1,42 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+header{
+background-image:url('f3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.clearfix:after{
+content:".";
+visibility: hidden;
+display: block;
+height:0px;
+clear:both;
+}
+
+
+.row{
+max-width: 1908px;
+margin: 0 auto;
+margin-left: 10px
+}
+
+.logo{
+height: 70px;
+width: 140px;
+float:left;
+margin-top: 20px;
+}
+
+.fbheader{
+margin-left:450px;
+height: 30%;
+}
+
+body{
+overflow: hidden;
+}
