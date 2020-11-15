@@ -1,0 +1,65 @@
+body{
+     background-image:url('WhatsApp Image 2020-10-04 at 14.32.53.jpeg');
+     background-size:cover;
+     font-family:Arial;
+}
+.button{
+     text-align: center;
+     margin: 10% auto;
+}
+.wrap {
+     max-width:350px;
+     border-radius:20px;
+     margin:auto;
+     background:rgba(0,0,0,0.8);
+     box-sizing:border-box;
+     padding:40px;
+     color: #fff;
+     margin-top:100px;
+}
+ h2 {
+      text-align:center;
+}
+  #number{
+       width:40%;
+       padding:5px;
+       border-radius:5px;
+       border:1px solid white;
+       outline:0;
+       font-family:serif;
+       font-size:18px;
+       background:none;
+}
+
+input[type=text],input[type=password],input[type=contact]
+{
+  width:100%;
+  box-sizing:border-box;
+  padding:12px 5px;
+  background:rgba(0,0,0,0.10);
+  outline:none;
+  border:none;
+  border-bottom:1px dotted #fff;
+  color:#fff;
+  border-radius:5px;
+  margin:5px;
+  font-weight:bold;
+}
+input[type=submit]
+{
+ width:100%;
+ box-sizing:border-box;
+ padding:10px 0;
+ margin-top:30px;
+ outline:none;
+ border:none;
+ background: #60adde;
+ opacity:0.7;
+ border-raius:20px;
+ color:#fff;
+}
+input[type=submit]:hover
+{
+ background: #003366;
+ opacity:0.9;
+}
